@@ -27,10 +27,23 @@ To run Solar Tales locally, follow these simple steps:
     ```
 
 3.  **Open the application in your browser:**
-    *   Open `index.html` to view the project homepage.
+    *   Open `index.html` through a local live server to view the project homepage.
     *   Open `storygame.html` to launch the interactive story and game directly.
 
 No installation or build steps are required.
+
+##  Tech Stacks
+
+| Layer               | Technologies Used                                                              |
+| ------------------- | ------------------------------------------------------------------------------ |
+| **Frontend**        | HTML5, CSS3, JavaScript (ES6)                                                  |
+| **Styling**         | Custom CSS (with responsive layout)                                            |
+| **Logic**           | Scene handling and quiz logic in JS modules (`app.js`, `quiz.js`, `scenes.js`) |
+| **Hosting**         | Vercel / GitHub Pages                                                          |
+| **Version Control** | Git                                                                            |
+
+
+
 
 ## 📂 Project Structure
 
@@ -56,3 +69,4 @@ The repository is organized with a clear and simple file structure:
 *   **Roshan Yadav:** Animation & Frontend Enhancer
 *   **Bhaskar:** Content & Story Writer
 *   **Diwakar:** Quality Assurance & Tester
+
