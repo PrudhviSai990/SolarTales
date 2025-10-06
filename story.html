@@ -73,21 +73,20 @@
   box-shadow: 0 0 20px rgba(0,255,255,0.3);
 }
 
-    
-  </style>
+</style> 
 </head>
-<body>
-
+<body onload="call()">
+  
   <!-- Navbar -->
   <header class="navbar">
-    <div class="logo"><a href="homepage.html" class="logo">SOLAR TALES</a></div>
+    <div class="logo"><a href="index.html" class="logo">SOLAR TALES</a></div>
     <nav>
       <ul>
-        <li><a href="homepage.html#about">About</a></li>
-        <li><a href="homepage.html#problem">Problem</a></li>
+        <li><a href="index.html">About</a></li>
+        <li><a href="index.html">Problem</a></li>
         <li><a href="story.html">Story</a></li>
-        <li><a href="homepage.html#team">Team</a></li>
-        <li><a href="index.html" class="play-btn">Play</a></li>
+        <li><a href="index.html">Team</a></li>
+        <li><a href="storygame.html" class="play-btn">Play</a></li>
       </ul>
     </nav>
   </header>
@@ -102,7 +101,7 @@
       <div class="card-content">
         <h3>Watch the Wonders of the Universe</h3>
         <video controls autoplay loop>
-          <source src="assests/space_video.mp4" type="video/mp4" />
+          <source src="assets/space_video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
@@ -129,6 +128,20 @@
       starContainer.appendChild(star);
     }
   </script>
+
+  <div class="gtranslate_wrapper"></div>
+<script>
+    window.gtranslateSettings = {
+        "default_language":"en",
+        "languages":["en","hi","te"],
+        "wrapper_selector":".gtranslate_wrapper",
+        "language_names":{
+            "hi":"हिंदी",
+            "te":"తెలుగు"
+        }
+    }
+</script>
+<script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
 
 </body>
 </html>

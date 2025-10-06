@@ -1,5 +1,10 @@
 /* Solar Tales - Interactive Space Weather Story Styles */
+/* --- CHATBOT STYLES --- */
 
+/* Utility class to hide the window initially */
+.hidden {
+    display: none !important;
+}
 /* CSS Reset and Base Styles */
 * {
     margin: 0;

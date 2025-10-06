@@ -110,7 +110,7 @@ body::before {
 
 /* Hero Section */
 .hero {
-  background: url('assests/main.jpg') center/cover no-repeat;
+  background: url('assets/main.jpg') center/cover no-repeat;
   height: 100vh;
   display: flex;
   justify-content: center;
