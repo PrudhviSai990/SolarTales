@@ -12,6 +12,9 @@ The project combines an illustrated narrative, real NASA facts, and an interacti
 *   **Data Visualization:** A modal that displays the Planetary K-index (Kp-index) to illustrate how geomagnetic storm activity is measured.
 *   **Multilingual Support:** The application includes integrated language support for English, Hindi, and Telugu.
 
+## Demo video
+https://drive.google.com/file/d/1VbulAehDVWSTxIkTNUxa0dOlCiEKm-yU/view?usp=sharing
+
 ## 🚀 Getting Started
 
 To run Solar Tales locally, follow these simple steps:
@@ -69,4 +72,5 @@ The repository is organized with a clear and simple file structure:
 *   **Roshan Yadav:** Animation & Frontend Enhancer
 *   **Bhaskar:** Content & Story Writer
 *   **Diwakar:** Quality Assurance & Tester
+
 
